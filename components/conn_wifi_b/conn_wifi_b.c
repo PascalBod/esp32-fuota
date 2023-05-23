@@ -12,7 +12,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with espidf-udp.  If not, see <https://www.gnu.org/licenses/>.
+ * along with esp32-fuota. If not, see <https://www.gnu.org/licenses/>.
  *
  * Copyright 2023 Pascal Bodin
  */
