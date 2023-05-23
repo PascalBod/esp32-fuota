@@ -1,0 +1,8 @@
+build/
+server_certs/ca_cert.pem
+.cproject
+.project
+sdkconfig
+sdkconfig.old
+dependencies.lock
+

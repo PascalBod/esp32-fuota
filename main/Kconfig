@@ -1,0 +1,34 @@
+menu "esp32-fuota configuration"
+
+        config FUO_OTA_UPDATE_AP_SSID
+        string "SSID of the OTA update AP"
+        help
+            The SSID of the Wi-Fi Access Point to be used for OTA update
+
+        config FUO_OTA_UPDATE_AP_PASSWORD
+        string "Password of the OTA update AP"
+        help
+            The password of the Wi-Fi Access Point to be used for OTA update
+
+        config FUO_OTA_SERVER_NAME
+        string "Domain name of the update server"
+        help
+            The domain name of the update server
+
+        config FUO_OTA_SERVER_PORT
+        int "Update server port"
+        range 49152 65535
+        help
+            The port of the update server used for OTA update
+
+        config FUO_OTA_SERVER_USERNAME
+        string "Update server username"
+        help
+            The update server username
+
+        config FUO_OTA_SERVER_PASSWORD
+        string "Update server password"
+        help
+            The update server password
+
+endmenu
